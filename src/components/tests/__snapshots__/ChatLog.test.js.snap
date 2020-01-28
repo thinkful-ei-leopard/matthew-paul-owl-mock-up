@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="Chat-Log"
+>
+  <div
+    className="Message-Container"
+  >
+    <div
+      className="Chat-Entry"
+    >
+      <img
+        alt="Avatar"
+        className="Participant-Avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+      <span
+        className="Participant-Name"
+      >
+        Axe Kubicka
+      </span>
+      <span
+        className="Chat-Timestamp"
+      >
+        1548852484247
+      </span>
+      <p
+        className="Chat-Message"
+      >
+        Hello world
+      </p>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Caty Flucker
+         gave a thumbs up!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Frank Runciman
+         gave a thumbs down!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Koren Templeton
+         raised their hand!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Koren Templeton
+         clapped!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Koren Templeton
+         joined!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Ashla Attwool
+         left!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Axe Kubicka
+         joined the stage!
+      </span>
+    </div>
+    <div
+      className="Chat-Entry"
+    >
+      <span
+        className="Chat-Action"
+      >
+        Axe Kubicka
+         left the stage!
+      </span>
+    </div>
+  </div>
+  <div
+    className="Chat-Box"
+  >
+    <form
+      id="Message-Form"
+    >
+      <input
+        placeholder="Chat"
+        type="text"
+      />
+    </form>
+  </div>
+</div>
+`;

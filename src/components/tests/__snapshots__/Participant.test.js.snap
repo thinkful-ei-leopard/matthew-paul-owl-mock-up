@@ -6,6 +6,7 @@ exports[`renders the UI as expected 1`] = `
 >
   <img
     alt="Avatar"
+    className="Participant-Avatar"
     src="test"
   />
   <span

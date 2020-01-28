@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="Chat-Entry"
+>
+  <img
+    alt="Avatar"
+    className="Participant-Avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <span
+    className="Participant-Name"
+  >
+    Koren Templeton
+  </span>
+  <span
+    className="Chat-Timestamp"
+  >
+    1548852544247
+  </span>
+  <p
+    className="Chat-Message"
+  >
+    Hello
+  </p>
+</div>
+`;
+
+exports[`renders the UI as expected 2`] = `
+<div
+  className="Chat-Entry"
+>
+  <span
+    className="Chat-Action"
+  >
+    Koren Templeton
+     gave a thumbs up!
+  </span>
+</div>
+`;

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import StageParticipant from '../StageParticipant';
+import ChatLog from '../ChatLog';
+import STORE from '../../STORE';
 import renderer from 'react-test-renderer'; 
 
 it('renders without crashing', () => {
@@ -8,10 +9,7 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
 
   // render the component, this is the actual test, if something is wrong it will fail here
-  ReactDOM.render(<StageParticipant key='test3'
-  name='test'
-  avatar='https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1'
-  />, div);
+  ReactDOM.render(<ChatLog chatEvents={STORE.chatEvents}/>, div);
 
   // clean up code
   ReactDOM.unmountComponentAtNode(div);
@@ -19,10 +17,7 @@ it('renders without crashing', () => {
 
 it('renders the UI as expected', () => {
   const tree = renderer
-  .create(<StageParticipant key='test4'
-      name='test'
-      avatar='test'
-      />)
+  .create(<ChatLog chatEvents={STORE.chatEvents}/>)
     .toJSON();
   expect(tree).toMatchSnapshot();  
-  });
+});

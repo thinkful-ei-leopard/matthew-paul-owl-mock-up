@@ -5,7 +5,7 @@ function Participant(props) {
   let stageClass = props.onStage ? 'onStage' : 'hidden';
   return (
     <div className="Participant">
-      <img src={props.avatar} alt="Avatar" />
+      <img className="Participant-Avatar"  src={props.avatar} alt="Avatar" />
       <span className="Participant-Name">{props.name}</span>
       <div className={sessionClass}></div>
       <span className={stageClass}></span>

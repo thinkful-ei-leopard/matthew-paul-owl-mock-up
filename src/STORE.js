@@ -45,7 +45,6 @@ const chatEvents = [
         participantId: 3,
         type: 'message',
         message: 'Hello world',
-        time: 1548852646559,
         timestamp: 1548852484247
     },
     {
@@ -90,7 +89,12 @@ const chatEvents = [
     }
 ];
 
+function findParticipantById(id) {
+    return participants.find(participant => participant.id === id);
+}
+
 export default {
     participants,
-    chatEvents
+    chatEvents,
+    findParticipantById
 }

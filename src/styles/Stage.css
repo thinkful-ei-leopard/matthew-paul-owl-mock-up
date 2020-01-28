@@ -1,0 +1,26 @@
+.Stage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #1E2835;
+    width: 100%;
+    padding: 20px;
+}
+
+.Stage-Participant {
+    text-align: center;
+    padding: 10px;
+}
+
+.Participant-Info-Container {
+    color: white;
+    background: #2A3340;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Stage-Avatar {
+    padding: 5px;
+    border-radius: 50%;
+}

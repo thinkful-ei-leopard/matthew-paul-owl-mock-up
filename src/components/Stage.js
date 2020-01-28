@@ -1,9 +1,10 @@
 import React from "react";
 import StageParticipant from "./StageParticipant";
+import '../styles/Stage.css'
 
 function Stage(props) {
   return (
-    <div className="stage">
+    <div className="Stage">
       {props.participants.map(person => (
         <StageParticipant
           key={person.id}

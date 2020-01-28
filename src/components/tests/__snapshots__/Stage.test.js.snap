@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="stage"
+>
+  <div
+    className="stage-participant"
+  >
+    <div
+      className="participant-info-container"
+    >
+      <span
+        className="participant-name"
+      >
+        Koren Templeton
+      </span>
+    </div>
+    <img
+      alt="avatar"
+      className="stage-avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <div
+      className="participant-info-container"
+    >
+      <span
+        className="participant-name"
+      >
+        Caty Flucker
+      </span>
+    </div>
+    <img
+      alt="avatar"
+      className="stage-avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <div
+      className="participant-info-container"
+    >
+      <span
+        className="participant-name"
+      >
+        Axe Kubicka
+      </span>
+    </div>
+    <img
+      alt="avatar"
+      className="stage-avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <div
+      className="participant-info-container"
+    >
+      <span
+        className="participant-name"
+      >
+        Frank Runciman
+      </span>
+    </div>
+    <img
+      alt="avatar"
+      className="stage-avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <div
+      className="participant-info-container"
+    >
+      <span
+        className="participant-name"
+      >
+        Ashla Attwool
+      </span>
+    </div>
+    <img
+      alt="avatar"
+      className="stage-avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

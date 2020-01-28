@@ -32,8 +32,8 @@ function renderNonMessage(participant, type, timestamp) {
             action = '';
     }
   return ( 
-    <div className="Chat-Entry">
-        <span className="Chat-Action">{participant.name}{action}</span>
+    <div className="Chat-Action">
+       <strong>{participant.name}</strong>{action}
     </div>
   );
 }
@@ -48,7 +48,7 @@ function ChatMessage(props) {
       <div className="Chat-Entry">
         <img className="Participant-Avatar" src={participant.avatar} alt="Avatar" />
         <span className="Participant-Name">{participant.name}</span>
-        <span className="Chat-Timestamp">{date.getTime()}</span>
+        <span className="Chat-Timestamp">{date.toLocaleTimeString()}</span>
         <p className="Chat-Message">{props.message}</p>
       </div>
     );

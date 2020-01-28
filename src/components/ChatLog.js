@@ -1,5 +1,6 @@
 import React from "react";
 import ChatMessage from "./ChatMessage";
+import '../styles/ChatLog.css';
 
 function ChatLog(props) {
   return (
@@ -7,7 +8,7 @@ function ChatLog(props) {
         <div className="Message-Container">
             {props.chatEvents.map(event => 
                 <ChatMessage 
-                key={event.participantId}
+                key={event.timestamp}
                 participantId={event.participantId}
                 type={event.type}
                 message={event.message}

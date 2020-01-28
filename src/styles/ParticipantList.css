@@ -1,0 +1,54 @@
+.Participant-List {
+  width: 300px;
+  height: 100vh;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  overflow-y: scroll;
+  border: 2px solid black;
+}
+
+.Participant {
+  width: 100%;
+  display: flex;
+  padding: .3rem;
+}
+
+.Participant-Name {
+  font-weight: 500;
+}
+
+.Participant-Avatar {
+width: 40px;
+border-radius: 50%;
+}
+
+.Participant-Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.Participant-Session-Status {
+  display: flex;
+}
+
+.online {
+  background-color: rgb(20, 199, 20);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.offline {
+  background-color: rgb(121, 121, 121);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+
+

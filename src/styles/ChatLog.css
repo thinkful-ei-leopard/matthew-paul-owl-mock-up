@@ -1,0 +1,50 @@
+.Chat-Log {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 300px;
+  height: 100vh;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  overflow-y: hidden;
+  border: 2px solid black;
+  vertical-align: baseline;
+}
+
+.Message-Container {
+  position: relative;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.Chat-Box {
+  display: block;
+  width: 100%
+}
+
+.Chat-Box input {
+  width: 100%;
+  height: 40px;
+}
+
+.Chat-Action {
+  text-align: center;
+  padding: 5px;
+  color: #888;
+}
+
+.Chat-Entry {
+  text-align: left;
+  padding: 5px;
+}
+
+.Chat-Message {
+  width: 240px;
+  text-align: center;
+}
+
+.Chat-Timestamp {
+  margin-left: 5px;
+  color: #888;
+}

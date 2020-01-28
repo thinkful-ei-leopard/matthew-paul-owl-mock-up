@@ -7,9 +7,9 @@ import Stage from './Stage';
 function App(props) {
   return (
     <div className="App">
-      <ParticipantList participants={props.participants} />
+      {/* <ParticipantList participants={props.participants} /> */}
       <ChatLog chatEvents={props.chatEvents} />
-      <Stage participants={props.participants} />
+      {/* <Stage participants={props.participants} /> */}
     </div>
   );
 }

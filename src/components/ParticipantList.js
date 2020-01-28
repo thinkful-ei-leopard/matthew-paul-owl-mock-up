@@ -1,5 +1,6 @@
 import React from "react";
 import Participant from "./Participant";
+import '../styles/ParticipantList.css';
 
 function ParticipantList(props) {
   let inSession = props.participants.filter(person => person.inSession);
